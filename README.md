@@ -25,7 +25,7 @@ At the end of initialization process, BrowserSync will launch a local web server
 
 ## How It Works
 - Working files for development are in the **'/app'** directory.
-- The site's preview (http://localost:3000/) will refresh everytime a scss, js, or html file gets updated.
+- The site's preview (http://localhost:3000/) will refresh everytime a scss, js, or html file gets updated.
 - To suspend Sass's _'watch'_ tasks, hit `control`+ `c`.
 - To resume Sass's _'watch'_ tasks, run `gulp serve`.
 - To create a clean output folder, run `gulp output`. It will create a new **'/dist'** directory.
